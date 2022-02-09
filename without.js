@@ -14,7 +14,15 @@ const assertArraysEqual = (arr1, arr2) => {
   }
 }
 
-v
+const without = (arrayWord, filtered) => {
+  let newArray = [];
+  for(let i = 0; i < arrayWord.length; i++){
+    if(arrayWord[i] !== filtered[i]){
+      newArray.push(arrayWord[i])
+    }
+  }
+ return newArray;
+}
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]); // no need to capture return value for this test case
 // Make sure the original array was not altered by the without functionv
