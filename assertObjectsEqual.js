@@ -27,9 +27,4 @@ const assertObjectsEqual = (actual, expected) => {
   }
 };
 
-// const ba = { b: "2", a: "2" };
-const ba = { d: ["2", 4], c: "2" }
-const cd =  { d: ["2", 4], c: "2" }
-// const dc = { d: ["2", 4], c: "1" };
-// const cd2 = { c: "1", d: ["2"]};
 assertObjectsEqual({ c: "2" , d: ["2", 4]}, { d: ["2", 4], c: "2" });
