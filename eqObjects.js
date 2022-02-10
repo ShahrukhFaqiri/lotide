@@ -21,16 +21,15 @@ const eqObject = (object1, object2) => {
      if(!eqArrays(object1[keys], object2[keys])){ 
        return false
       }
-    }
-    if (object1[keys] !== object2[keys]) return false;
+    }else if(object1[keys] !== object2[keys]) return false;
   }
   return true;
 };
 
-// const abc = { a: "1", b: "2", c: "3" };
+// const ba = { a: "1", b: "2", c: "3" };
 // const cd = { a: "2", b: "2" };
 const ba = { d: ["2", 4], c: "2" }
-const cd =  { d: ["2", 4], c: "1" }
-// const dc = { d: ["2", 4], c: "1" };
-// const cd2 = { c: "1", d: ["2"]};
-assertEqual(eqObject(ba, cd), false);
+const cd =  { d: ["2", 4], c: "2" }
+// const ba = { d: ["2", 4], c: "1" };
+// const cd = { d: ["2", 4], c: "2" }
+assertEqual(eqObject(ba, cd), true);
