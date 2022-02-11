@@ -17,11 +17,10 @@ const assertArraysEqual = (arr1, arr2) => {
 const takeUntil = (array, callback) => {
   const results = [];
   for (let x of array) {
-    if (!callback(x)) {
-      results.push(x);
-    } else {
-      break;
-    }
+    if (callback(x)) {
+      return results;
+    } 
+    results.push(x)
   }
   return results;
 };
