@@ -1,6 +1,3 @@
-const tail = (array) => {
-  let newArray = array.slice(array[0]);
-  return newArray;
-};
+const tail = (array) => { return newArray = array.slice(1) };
 
 module.exports = tail;
