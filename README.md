@@ -32,3 +32,5 @@ The following functions are currently implemented:
 * `countOnly(...)`: returns object key counts
 * `letterPositions(...)` return an object with location of letter from string
 * `findKeyByValue(...)` return the key based on given value
+* `eqObject(...)` return true if the object is directly equal to each other
+*  `eqArrays(...)`return true if the arrays are equal to each other

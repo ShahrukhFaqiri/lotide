@@ -1,9 +1,11 @@
 const head = require('./head');
 const tail = require('./head');
-const middle = require ('./middle');
-const countOnly = require('./countOnly')
-const letterPositions = require('./letterPositions')
+const middle = require('./middle');
+const countOnly = require('./countOnly');
+const letterPositions = require('./letterPositions');
 const findKeyByValue = require('./findKeyValue');
+const eqObject = require('./eqObjects');
+const eqArrays = require('./eqArrays');
 
 module.exports = {
   head,
@@ -11,5 +13,7 @@ module.exports = {
   middle,
   countOnly,
   letterPositions,
-  findKeyByValue
-}
+  findKeyByValue,
+  eqObject,
+  eqArrays
+};
