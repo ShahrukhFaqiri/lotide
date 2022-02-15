@@ -29,3 +29,5 @@ The following functions are currently implemented:
 * `head(...)`: returns first element of array
 * `tail(...)`: removes first element of array without modifying original array
 * `middle(...)`: returns middle element of array
+* `countOnly(...)`: returns object key counts
+* `letterPositions(...)` return an object with location of letter from string
