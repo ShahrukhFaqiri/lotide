@@ -1,6 +1,6 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
+  "name": "@shafaqiri/lotide",
+  "version": "1.0.1",
   "description": "This project was created and published by me as part of my learnings at Lighthouse Labs.",
   "main": "index.js",
   "directories": {
