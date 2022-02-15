@@ -31,3 +31,4 @@ The following functions are currently implemented:
 * `middle(...)`: returns middle element of array
 * `countOnly(...)`: returns object key counts
 * `letterPositions(...)` return an object with location of letter from string
+* `findKeyByValue(...)` return the key based on given value
